@@ -5,7 +5,8 @@ Description: Settings for Rotten Tomatoes Search API
 Version: 1.0
 */
 
-define("API_KEY", "pf2k3ebp4kwxgy5v3268vd9x");
+//Use API Key found on stack overflow
+define("API_KEY", "ny97sdcpqetasj8a4v2na8va");
 $results_json_test = '{
   "total": 591,
   "movies": [{
