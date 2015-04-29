@@ -1,0 +1,38 @@
+@charset "utf-8";
+/*
+Author: Nyco Agung
+Description: Styles sheets for Rotten Tomatoes Search API
+Version: 1.0
+*/
+
+body 																{ margin:0px; padding:0px; background:#fff; color:#333; font:400 14px/24px 'Open Sans', sans-serif; }
+a																	{ color:#0C89CA; text-decoration:none; }
+a:hover																{ color:#000; border:none; }
+img																	{ border:none; }
+input[type="text"], select											{ font:13px 'Open Sans', sans-serif; color:#666666; padding:5px; border:none; }
+input[type="text"].error, select.error								{ border:1px solid #FF0004; }
+label.error															{ display:none !important; }
+
+.bar_search															{  border-bottom:1px #ccc solid; }
+.movies, .tv														{ display:block; overflow:hidden; padding:0 0 20px 0; margin:0 0 20px 0; border-bottom:1px #ccc solid; }
+.movies ul.movie_list,
+.tv ul.tv_list														{ display:block; overflow:hidden; padding:0; margin:0; list-style:none; }
+.movies ul.movie_list li,
+.tv ul.tv_list li													{ display:block; list-style:none; }
+.movies ul.movie_list span,
+.tv ul.tv_list span													{ margin-right:10px; font-weight:bold; }
+.movies ul.movie_list span.highlight,
+.tv ul.tv_list span.highlight										{ margin-right:0px; font-weight:bold; background:#FFFD00; }
+
+.movies ul.movie_list li.poster,
+.tv ul.tv_list li.poster											{ display:inline-block; vertical-align:top; float:left; margin-right:10px; }
+.movies ul.movie_list li.title,
+.tv ul.tv_list li.title												{ font:400 18px/24px 'Open Sans', sans-serif; }
+
+ul.nav																{ display:block; margin:0; padding:0; list-style:none; }
+ul.nav li															{ display:inline-block; margin:0; padding:0; list-style:none; width:33%; }
+ul.nav li.self														{ text-align:center; }
+ul.nav li.next														{ text-align:right; }
+
+.wrapper															{ display:block; overflow:hidden; margin:0 auto; padding:10px; width:800px; }
+.block																{ display:block; overflow:hidden; }
